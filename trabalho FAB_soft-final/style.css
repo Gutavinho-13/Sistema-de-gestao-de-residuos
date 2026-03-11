@@ -1,0 +1,103 @@
+
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#d7e8dd;
+color:#1f2937;
+}
+
+.navbar{
+background:lightgreen;
+padding:18px 40px;
+border-bottom:1px solid #e5e7eb;
+}
+
+.logo{
+font-size:30px;
+font-weight:bold;
+color:#111827;
+}
+
+.agendamento{
+padding:80px 20px;
+text-align:center;
+}
+
+.agendamento h2{
+font-size:36px;
+margin-bottom:10px;
+}
+
+.subtitulo{
+color:#6b7280;
+margin-bottom:40px;
+}
+
+.form-agendamento{
+max-width:600px;
+margin:auto;
+background:white;
+padding:30px;
+border-radius:12px;
+box-shadow:0 10px 25px rgba(0,0,0,0.05);
+text-align:left;
+}
+
+.campo{
+margin-bottom:20px;
+display:flex;
+flex-direction:column;
+}
+
+.campo label{
+margin-bottom:6px;
+font-weight:600;
+color:#374151;
+}
+
+.campo input,
+.campo select,
+.campo textarea{
+padding:12px;
+border-radius:8px;
+border:1px solid #d1d5db;
+font-size:14px;
+transition:0.2s;
+}
+
+.campo input:focus,
+.campo select:focus,
+.campo textarea:focus{
+outline:none;
+border-color:#16a34a;
+box-shadow:0 0 0 2px rgba(22,163,74,0.15);
+}
+
+.campo textarea{
+resize:none;
+height:100px;
+}
+
+
+.btn-agendar{
+width:100%;
+padding:14px;
+background:#16a34a;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+font-weight:bold;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn-agendar:hover{
+background:#15803d;
+}
